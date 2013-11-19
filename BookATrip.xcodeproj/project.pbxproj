@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAAFCA1183C07D00070A0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA0183C07D00070A0AF /* Foundation.framework */; };
+		0BAAFCA3183C07D00070A0AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA2183C07D00070A0AF /* CoreGraphics.framework */; };
+		0BAAFCA5183C07D00070A0AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA4183C07D00070A0AF /* UIKit.framework */; };
+		0BAAFCAB183C07D00070A0AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCA9183C07D00070A0AF /* InfoPlist.strings */; };
+		0BAAFCAD183C07D00070A0AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCAC183C07D00070A0AF /* main.m */; };
+		0BAAFCB1183C07D00070A0AF /* BATAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCB0183C07D00070A0AF /* BATAppDelegate.m */; };
+		0BAAFCB4183C07D00070A0AF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCB2183C07D00070A0AF /* Main_iPhone.storyboard */; };
+		0BAAFCB7183C07D00070A0AF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCB5183C07D00070A0AF /* Main_iPad.storyboard */; };
+		0BAAFCBA183C07D00070A0AF /* BATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCB9183C07D00070A0AF /* BATViewController.m */; };
+		0BAAFCBC183C07D00070A0AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCBB183C07D00070A0AF /* Images.xcassets */; };
+		0BAAFCC3183C07D00070A0AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCC2183C07D00070A0AF /* XCTest.framework */; };
+		0BAAFCC4183C07D00070A0AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA0183C07D00070A0AF /* Foundation.framework */; };
+		0BAAFCC5183C07D00070A0AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA4183C07D00070A0AF /* UIKit.framework */; };
+		0BAAFCCD183C07D00070A0AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCCB183C07D00070A0AF /* InfoPlist.strings */; };
+		0BAAFCCF183C07D00070A0AF /* BookATripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCCE183C07D00070A0AF /* BookATripTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BAAFCC6183C07D00070A0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BAAFC95183C07D00070A0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BAAFC9C183C07D00070A0AF;
+			remoteInfo = BookATrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAAFC9D183C07D00070A0AF /* BookATrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookATrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAAFCA0183C07D00070A0AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BAAFCA2183C07D00070A0AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BAAFCA4183C07D00070A0AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BAAFCA8183C07D00070A0AF /* BookATrip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookATrip-Info.plist"; sourceTree = "<group>"; };
+		0BAAFCAA183C07D00070A0AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BAAFCAC183C07D00070A0AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BAAFCAE183C07D00070A0AF /* BookATrip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookATrip-Prefix.pch"; sourceTree = "<group>"; };
+		0BAAFCAF183C07D00070A0AF /* BATAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATAppDelegate.h; sourceTree = "<group>"; };
+		0BAAFCB0183C07D00070A0AF /* BATAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATAppDelegate.m; sourceTree = "<group>"; };
+		0BAAFCB3183C07D00070A0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0BAAFCB6183C07D00070A0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0BAAFCB8183C07D00070A0AF /* BATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATViewController.h; sourceTree = "<group>"; };
+		0BAAFCB9183C07D00070A0AF /* BATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATViewController.m; sourceTree = "<group>"; };
+		0BAAFCBB183C07D00070A0AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BAAFCC1183C07D00070A0AF /* BookATripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookATripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAAFCC2183C07D00070A0AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0BAAFCCA183C07D00070A0AF /* BookATripTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookATripTests-Info.plist"; sourceTree = "<group>"; };
+		0BAAFCCC183C07D00070A0AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BAAFCCE183C07D00070A0AF /* BookATripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookATripTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BAAFC9A183C07D00070A0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCA3183C07D00070A0AF /* CoreGraphics.framework in Frameworks */,
+				0BAAFCA5183C07D00070A0AF /* UIKit.framework in Frameworks */,
+				0BAAFCA1183C07D00070A0AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BAAFCBE183C07D00070A0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCC3183C07D00070A0AF /* XCTest.framework in Frameworks */,
+				0BAAFCC5183C07D00070A0AF /* UIKit.framework in Frameworks */,
+				0BAAFCC4183C07D00070A0AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAAFC94183C07D00070A0AF = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCA6183C07D00070A0AF /* BookATrip */,
+				0BAAFCC8183C07D00070A0AF /* BookATripTests */,
+				0BAAFC9F183C07D00070A0AF /* Frameworks */,
+				0BAAFC9E183C07D00070A0AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BAAFC9E183C07D00070A0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFC9D183C07D00070A0AF /* BookATrip.app */,
+				0BAAFCC1183C07D00070A0AF /* BookATripTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BAAFC9F183C07D00070A0AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCA0183C07D00070A0AF /* Foundation.framework */,
+				0BAAFCA2183C07D00070A0AF /* CoreGraphics.framework */,
+				0BAAFCA4183C07D00070A0AF /* UIKit.framework */,
+				0BAAFCC2183C07D00070A0AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BAAFCA6183C07D00070A0AF /* BookATrip */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCAF183C07D00070A0AF /* BATAppDelegate.h */,
+				0BAAFCB0183C07D00070A0AF /* BATAppDelegate.m */,
+				0BAAFCB2183C07D00070A0AF /* Main_iPhone.storyboard */,
+				0BAAFCB5183C07D00070A0AF /* Main_iPad.storyboard */,
+				0BAAFCB8183C07D00070A0AF /* BATViewController.h */,
+				0BAAFCB9183C07D00070A0AF /* BATViewController.m */,
+				0BAAFCBB183C07D00070A0AF /* Images.xcassets */,
+				0BAAFCA7183C07D00070A0AF /* Supporting Files */,
+			);
+			path = BookATrip;
+			sourceTree = "<group>";
+		};
+		0BAAFCA7183C07D00070A0AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCA8183C07D00070A0AF /* BookATrip-Info.plist */,
+				0BAAFCA9183C07D00070A0AF /* InfoPlist.strings */,
+				0BAAFCAC183C07D00070A0AF /* main.m */,
+				0BAAFCAE183C07D00070A0AF /* BookATrip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BAAFCC8183C07D00070A0AF /* BookATripTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCCE183C07D00070A0AF /* BookATripTests.m */,
+				0BAAFCC9183C07D00070A0AF /* Supporting Files */,
+			);
+			path = BookATripTests;
+			sourceTree = "<group>";
+		};
+		0BAAFCC9183C07D00070A0AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCCA183C07D00070A0AF /* BookATripTests-Info.plist */,
+				0BAAFCCB183C07D00070A0AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BAAFC9C183C07D00070A0AF /* BookATrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAAFCD2183C07D00070A0AF /* Build configuration list for PBXNativeTarget "BookATrip" */;
+			buildPhases = (
+				0BAAFC99183C07D00070A0AF /* Sources */,
+				0BAAFC9A183C07D00070A0AF /* Frameworks */,
+				0BAAFC9B183C07D00070A0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookATrip;
+			productName = BookATrip;
+			productReference = 0BAAFC9D183C07D00070A0AF /* BookATrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BAAFCC0183C07D00070A0AF /* BookATripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BAAFCD5183C07D00070A0AF /* Build configuration list for PBXNativeTarget "BookATripTests" */;
+			buildPhases = (
+				0BAAFCBD183C07D00070A0AF /* Sources */,
+				0BAAFCBE183C07D00070A0AF /* Frameworks */,
+				0BAAFCBF183C07D00070A0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BAAFCC7183C07D00070A0AF /* PBXTargetDependency */,
+			);
+			name = BookATripTests;
+			productName = BookATripTests;
+			productReference = 0BAAFCC1183C07D00070A0AF /* BookATripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BAAFC95183C07D00070A0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BAT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vinod Vishwanath";
+				TargetAttributes = {
+					0BAAFCC0183C07D00070A0AF = {
+						TestTargetID = 0BAAFC9C183C07D00070A0AF;
+					};
+				};
+			};
+			buildConfigurationList = 0BAAFC98183C07D00070A0AF /* Build configuration list for PBXProject "BookATrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BAAFC94183C07D00070A0AF;
+			productRefGroup = 0BAAFC9E183C07D00070A0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BAAFC9C183C07D00070A0AF /* BookATrip */,
+				0BAAFCC0183C07D00070A0AF /* BookATripTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BAAFC9B183C07D00070A0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCB7183C07D00070A0AF /* Main_iPad.storyboard in Resources */,
+				0BAAFCBC183C07D00070A0AF /* Images.xcassets in Resources */,
+				0BAAFCB4183C07D00070A0AF /* Main_iPhone.storyboard in Resources */,
+				0BAAFCAB183C07D00070A0AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BAAFCBF183C07D00070A0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCCD183C07D00070A0AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BAAFC99183C07D00070A0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCB1183C07D00070A0AF /* BATAppDelegate.m in Sources */,
+				0BAAFCAD183C07D00070A0AF /* main.m in Sources */,
+				0BAAFCBA183C07D00070A0AF /* BATViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BAAFCBD183C07D00070A0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAFCCF183C07D00070A0AF /* BookATripTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BAAFCC7183C07D00070A0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BAAFC9C183C07D00070A0AF /* BookATrip */;
+			targetProxy = 0BAAFCC6183C07D00070A0AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BAAFCA9183C07D00070A0AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAAFCAA183C07D00070A0AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BAAFCB2183C07D00070A0AF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAAFCB3183C07D00070A0AF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0BAAFCB5183C07D00070A0AF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAAFCB6183C07D00070A0AF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0BAAFCCB183C07D00070A0AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BAAFCCC183C07D00070A0AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BAAFCD0183C07D00070A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BAAFCD1183C07D00070A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BAAFCD3183C07D00070A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookATrip/BookATrip-Prefix.pch";
+				INFOPLIST_FILE = "BookATrip/BookATrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BAAFCD4183C07D00070A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookATrip/BookATrip-Prefix.pch";
+				INFOPLIST_FILE = "BookATrip/BookATrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BAAFCD6183C07D00070A0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookATrip.app/BookATrip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookATrip/BookATrip-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BookATripTests/BookATripTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0BAAFCD7183C07D00070A0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BookATrip.app/BookATrip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookATrip/BookATrip-Prefix.pch";
+				INFOPLIST_FILE = "BookATripTests/BookATripTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BAAFC98183C07D00070A0AF /* Build configuration list for PBXProject "BookATrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BAAFCD0183C07D00070A0AF /* Debug */,
+				0BAAFCD1183C07D00070A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BAAFCD2183C07D00070A0AF /* Build configuration list for PBXNativeTarget "BookATrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BAAFCD3183C07D00070A0AF /* Debug */,
+				0BAAFCD4183C07D00070A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BAAFCD5183C07D00070A0AF /* Build configuration list for PBXNativeTarget "BookATripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BAAFCD6183C07D00070A0AF /* Debug */,
+				0BAAFCD7183C07D00070A0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BAAFC95183C07D00070A0AF /* Project object */;
+}
