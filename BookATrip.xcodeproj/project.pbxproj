@@ -30,6 +30,7 @@
 		0BAAFCE7183C32080070A0AF /* BATTravellersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCE6183C32080070A0AF /* BATTravellersView.m */; };
 		0BAAFCEC183C67750070A0AF /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCEB183C67750070A0AF /* flight.png */; };
 		0BAAFCEF183C68F40070A0AF /* UIButton+Gradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCEE183C68F40070A0AF /* UIButton+Gradients.m */; };
+		0BAAFCF1183C71C90070A0AF /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCF0183C71C90070A0AF /* menu@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		0BAAFCEB183C67750070A0AF /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flight.png; sourceTree = "<group>"; };
 		0BAAFCED183C68F40070A0AF /* UIButton+Gradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradients.h"; sourceTree = "<group>"; };
 		0BAAFCEE183C68F40070A0AF /* UIButton+Gradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Gradients.m"; sourceTree = "<group>"; };
+		0BAAFCF0183C71C90070A0AF /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		0BAAFCDE183C31CD0070A0AF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0BAAFCF0183C71C90070A0AF /* menu@2x.png */,
 				0BAAFCEB183C67750070A0AF /* flight.png */,
 				0BAAFCDF183C31DA0070A0AF /* infant.png */,
 				0BAAFCE0183C31DA0070A0AF /* child.png */,
@@ -274,6 +277,7 @@
 			files = (
 				0BAAFCE4183C31DA0070A0AF /* adult.png in Resources */,
 				0BAAFCE3183C31DA0070A0AF /* child.png in Resources */,
+				0BAAFCF1183C71C90070A0AF /* menu@2x.png in Resources */,
 				0BAAFCE2183C31DA0070A0AF /* infant.png in Resources */,
 				0BAAFCEC183C67750070A0AF /* flight.png in Resources */,
 				0BAAFCB7183C07D00070A0AF /* Main_iPad.storyboard in Resources */,

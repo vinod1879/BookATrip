@@ -30,7 +30,7 @@
 
 -(void)initView
 {
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
+    //[[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
     [bookingTable setScrollEnabled:NO];
 }
 
