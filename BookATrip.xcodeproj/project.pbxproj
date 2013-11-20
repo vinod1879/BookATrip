@@ -22,6 +22,14 @@
 		0BAAFCC5183C07D00070A0AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAAFCA4183C07D00070A0AF /* UIKit.framework */; };
 		0BAAFCCD183C07D00070A0AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCCB183C07D00070A0AF /* InfoPlist.strings */; };
 		0BAAFCCF183C07D00070A0AF /* BookATripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCCE183C07D00070A0AF /* BookATripTests.m */; };
+		0BAAFCDA183C15240070A0AF /* BATStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCD9183C15240070A0AF /* BATStation.m */; };
+		0BAAFCDD183C1FBC0070A0AF /* BATDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCDC183C1FBC0070A0AF /* BATDateView.m */; };
+		0BAAFCE2183C31DA0070A0AF /* infant.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCDF183C31DA0070A0AF /* infant.png */; };
+		0BAAFCE3183C31DA0070A0AF /* child.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCE0183C31DA0070A0AF /* child.png */; };
+		0BAAFCE4183C31DA0070A0AF /* adult.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCE1183C31DA0070A0AF /* adult.png */; };
+		0BAAFCE7183C32080070A0AF /* BATTravellersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCE6183C32080070A0AF /* BATTravellersView.m */; };
+		0BAAFCEC183C67750070A0AF /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BAAFCEB183C67750070A0AF /* flight.png */; };
+		0BAAFCEF183C68F40070A0AF /* UIButton+Gradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAFCEE183C68F40070A0AF /* UIButton+Gradients.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,18 @@
 		0BAAFCCA183C07D00070A0AF /* BookATripTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookATripTests-Info.plist"; sourceTree = "<group>"; };
 		0BAAFCCC183C07D00070A0AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0BAAFCCE183C07D00070A0AF /* BookATripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookATripTests.m; sourceTree = "<group>"; };
+		0BAAFCD8183C15240070A0AF /* BATStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATStation.h; sourceTree = "<group>"; };
+		0BAAFCD9183C15240070A0AF /* BATStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATStation.m; sourceTree = "<group>"; };
+		0BAAFCDB183C1FBC0070A0AF /* BATDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BATDateView.h; path = ../BATDateView.h; sourceTree = "<group>"; };
+		0BAAFCDC183C1FBC0070A0AF /* BATDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BATDateView.m; path = ../BATDateView.m; sourceTree = "<group>"; };
+		0BAAFCDF183C31DA0070A0AF /* infant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infant.png; sourceTree = "<group>"; };
+		0BAAFCE0183C31DA0070A0AF /* child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child.png; sourceTree = "<group>"; };
+		0BAAFCE1183C31DA0070A0AF /* adult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adult.png; sourceTree = "<group>"; };
+		0BAAFCE5183C32080070A0AF /* BATTravellersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATTravellersView.h; sourceTree = "<group>"; };
+		0BAAFCE6183C32080070A0AF /* BATTravellersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATTravellersView.m; sourceTree = "<group>"; };
+		0BAAFCEB183C67750070A0AF /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flight.png; sourceTree = "<group>"; };
+		0BAAFCED183C68F40070A0AF /* UIButton+Gradients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Gradients.h"; sourceTree = "<group>"; };
+		0BAAFCEE183C68F40070A0AF /* UIButton+Gradients.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Gradients.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +134,14 @@
 		0BAAFCA6183C07D00070A0AF /* BookATrip */ = {
 			isa = PBXGroup;
 			children = (
+				0BAAFCED183C68F40070A0AF /* UIButton+Gradients.h */,
+				0BAAFCEE183C68F40070A0AF /* UIButton+Gradients.m */,
+				0BAAFCE5183C32080070A0AF /* BATTravellersView.h */,
+				0BAAFCE6183C32080070A0AF /* BATTravellersView.m */,
+				0BAAFCD8183C15240070A0AF /* BATStation.h */,
+				0BAAFCD9183C15240070A0AF /* BATStation.m */,
+				0BAAFCDB183C1FBC0070A0AF /* BATDateView.h */,
+				0BAAFCDC183C1FBC0070A0AF /* BATDateView.m */,
 				0BAAFCAF183C07D00070A0AF /* BATAppDelegate.h */,
 				0BAAFCB0183C07D00070A0AF /* BATAppDelegate.m */,
 				0BAAFCB2183C07D00070A0AF /* Main_iPhone.storyboard */,
@@ -129,6 +157,7 @@
 		0BAAFCA7183C07D00070A0AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BAAFCDE183C31CD0070A0AF /* Images */,
 				0BAAFCA8183C07D00070A0AF /* BookATrip-Info.plist */,
 				0BAAFCA9183C07D00070A0AF /* InfoPlist.strings */,
 				0BAAFCAC183C07D00070A0AF /* main.m */,
@@ -153,6 +182,17 @@
 				0BAAFCCB183C07D00070A0AF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BAAFCDE183C31CD0070A0AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0BAAFCEB183C67750070A0AF /* flight.png */,
+				0BAAFCDF183C31DA0070A0AF /* infant.png */,
+				0BAAFCE0183C31DA0070A0AF /* child.png */,
+				0BAAFCE1183C31DA0070A0AF /* adult.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAAFCE4183C31DA0070A0AF /* adult.png in Resources */,
+				0BAAFCE3183C31DA0070A0AF /* child.png in Resources */,
+				0BAAFCE2183C31DA0070A0AF /* infant.png in Resources */,
+				0BAAFCEC183C67750070A0AF /* flight.png in Resources */,
 				0BAAFCB7183C07D00070A0AF /* Main_iPad.storyboard in Resources */,
 				0BAAFCBC183C07D00070A0AF /* Images.xcassets in Resources */,
 				0BAAFCB4183C07D00070A0AF /* Main_iPhone.storyboard in Resources */,
@@ -254,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAAFCDA183C15240070A0AF /* BATStation.m in Sources */,
 				0BAAFCB1183C07D00070A0AF /* BATAppDelegate.m in Sources */,
+				0BAAFCE7183C32080070A0AF /* BATTravellersView.m in Sources */,
 				0BAAFCAD183C07D00070A0AF /* main.m in Sources */,
+				0BAAFCEF183C68F40070A0AF /* UIButton+Gradients.m in Sources */,
 				0BAAFCBA183C07D00070A0AF /* BATViewController.m in Sources */,
+				0BAAFCDD183C1FBC0070A0AF /* BATDateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

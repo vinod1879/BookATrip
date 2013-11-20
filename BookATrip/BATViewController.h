@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BATStation.h"
+#import "BATDateView.h"
+#import "BATTravellersView.h"
+#import "UIButton+Gradients.h"
 
-@interface BATViewController : UIViewController
+@interface BATViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    
+    BATStation *fromStation;
+    BATStation *toStation;
+    
+    BATDateView *startDate;
+    BATDateView *endDate;
+    
+    BATTravellersView *passengerView;
+    
+    UIView *classView;
+}
+
+@property IBOutlet UITableView *bookingTable;
 
 @end
